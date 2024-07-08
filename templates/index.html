@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Time</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Smart Time</h1>
+<form action="/add_task" method="POST">
+<label for="task">Task:</label>
+<input type="text" name="task" id="task">
+<br>
+<label for="description">Description:</label>
+<input type="text" name="description" id="description">
+<br>
+<label for="due_date">Due Date:</label>
+<input type="date" name="due_date" id="due_date">
+<br>
+<label for="time_slot">Time Slot:</label>
+<input type="time" name="time_slot" id="time_slot">
+<br>
+<label for="priority">Priority:</label>
+<select name="priority" id="priority">
+<option value="low">Low</option>
+<option value="medium">Medium</option>
+<option value="high">High</option>
+</select>
+<br>
+<button type="submit">Add Task</button>
+</form>
+</body>
+</html>
+
+
